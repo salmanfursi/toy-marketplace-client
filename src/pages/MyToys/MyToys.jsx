@@ -13,7 +13,7 @@ const MyToys = () => {
   const [toys, setToys] = useState([]);
   // console.log(toys)
   useEffect(() => {
-    const url = `https://toy-marketplace-server-sigma-flax.vercel.app/toys/${
+    const url = `https://b7a11-toy-marketplace-server-side-salmanfursi.vercel.app/toys/${
       user?.email
     }${isDescending ? "?sort=desc" : ""}`;
 

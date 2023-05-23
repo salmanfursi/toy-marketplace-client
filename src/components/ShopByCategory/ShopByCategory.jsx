@@ -10,7 +10,7 @@ const ShopByCategory = () => {
   useEffect(() => {
     setLoading(true);
     fetch(
-      `https://toy-marketplace-server-sigma-flax.vercel.app/toys/category/${selectedCategory}`
+      `https://b7a11-toy-marketplace-server-side-salmanfursi.vercel.app/toys/category/${selectedCategory}`
     )
       .then((response) => response.json())
       .then((data) => setToys(data))

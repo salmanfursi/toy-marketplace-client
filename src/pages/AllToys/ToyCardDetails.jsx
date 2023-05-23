@@ -19,7 +19,7 @@ const ToyCardDetails = () => {
   } = view;
   // console.log(view)
   useEffect(() => {
-    fetch(`https://toy-marketplace-server-sigma-flax.vercel.app/toy/${id}`)
+    fetch(`https://b7a11-toy-marketplace-server-side-salmanfursi.vercel.app/toy/${id}`)
       .then((res) => res.json())
       .then((data) => {
         // console.log(data)

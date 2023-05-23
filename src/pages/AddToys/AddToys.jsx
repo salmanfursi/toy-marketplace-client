@@ -36,7 +36,7 @@ const AddToys = () => {
     //   availableQuantity,
     //   description
     // );
-    fetch(`https://toy-marketplace-server-sigma-flax.vercel.app/toys`, {
+    fetch(`https://b7a11-toy-marketplace-server-side-salmanfursi.vercel.app/toys`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
